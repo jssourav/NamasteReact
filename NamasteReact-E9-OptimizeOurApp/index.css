@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.nav-items>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.card {
+    width: 197px;
+
+    padding: 10px;
+    margin: 10px;
+    overflow-wrap: break-word;
+}
+
+.col-container {
+    display: table;
+    padding: 20px;
+}
+
+.col {
+    display: table-cell;
+    padding: 16px;
+    border: 1px solid rgb(128, 124, 124);
+    box-shadow: 10px 10px 5px #92969b8a;
+    border-radius: 8px;
+}
+
+.card>img, .blank-img-div {
+    background: #eef0f5;
+    width: 200px;
+    height: 160px;
+    position: relative;
+}
+
+.restraunt-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shimmer-card {
+    width: 197px;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #cbcbcb;
+    border-radius: 8px;
+}
+
+a {
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.restaurent-menu-image {
+    width: 500px;
+}
+
+.restaurent-menu {
+    display: flex;
+}
+
+.login-form {
+    border: 3px solid #f1f1f1;
+    width: 30%;
+    margin: auto;
+}
+
+/* Full-width inputs */
+ input[type=email],
+ input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login-button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.login-button:hover {
+    opacity: 0.8;
+}
+
+.nav-login {
+    margin-right: 10px;
+}
+
